@@ -12,6 +12,6 @@ package com.mycompany.sesion2final;
 public class Sesion2Final {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello World 2!");
     }
 }
