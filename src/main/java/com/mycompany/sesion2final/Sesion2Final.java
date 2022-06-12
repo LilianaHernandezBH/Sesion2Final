@@ -28,7 +28,7 @@ public class Sesion2Final {
       
       //Suma de dos numero por teclado
        
-      int num1;
+     /* int num1;
       int num2;
       int Resultado;
       
@@ -37,6 +37,26 @@ public class Sesion2Final {
        System.out.println("Ingrese el segundo numero: ");
        num2= sc.nextInt();
        Resultado= num1+num2;
-       System.out.println("El resultado de la suma es: "+ Resultado);
+       System.out.println("El resultado de la suma es: "+ Resultado);*/
+       
+       
+       //Ingrese por teclado Nombre , Edad y Sueldo
+       
+       String nombre;
+       int Edad;
+       double Sueldo;
+       String informacion;
+       
+       
+       System.out.println("Ingresa tu nombre: ");
+        nombre=sc.nextLine();
+        System.out.println("Ingresa tu edad: ");
+        Edad=sc.nextInt();
+         System.out.println("Ingresa tu sueldo: ");
+         Sueldo=sc.nextDouble();
+         
+         informacion=nombre+"\n"+Edad+"\n"+Sueldo;
+         System.out.println(informacion);
+      
            }
 }
