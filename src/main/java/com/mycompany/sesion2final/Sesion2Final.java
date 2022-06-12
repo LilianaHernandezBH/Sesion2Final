@@ -42,7 +42,7 @@ public class Sesion2Final {
        
        //Ingrese por teclado Nombre , Edad y Sueldo
        
-       String nombre;
+      /* String nombre;
        int Edad;
        double Sueldo;
        String informacion;
@@ -55,8 +55,21 @@ public class Sesion2Final {
          System.out.println("Ingresa tu sueldo: ");
          Sueldo=sc.nextDouble();
          
-         informacion=nombre+"\n"+Edad+"\n"+Sueldo;
-         System.out.println(informacion);
+          System.out.println("Ingresa tu sueldo: ");
+        informacion=nombre+"\n"+Edad+"\n"+Sueldo;
+        System.out.println(informacion);*/
+        
+        System.out.println("-------->u<------");
+         
+         //Condicionales
+         
+            //1.Condicionales IF
+         
+            if (10>5) {
+            System.out.println("10 es mayor a 5");
+        }
+          
+         
       
            }
 }
