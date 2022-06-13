@@ -149,7 +149,7 @@ public class Sesion2Final {
           do { 
               System.out.println(contadorDoWhile);
               contadorDoWhile++;          
-        } while (contadorDoWhile<5);*/
+        } while (contadorDoWhile<5);
           
           
           //Ciclos finitos for
@@ -157,9 +157,44 @@ public class Sesion2Final {
           for (i=0;i<5;i++) {
            System.out.println(i);
         }
+          // for each nos sirve para recorrer arreglos, vectores, matrices
           
+          String[] AlumnosForEach={"Frank","Liliana","Claudio","Vinicio"};
+          //Mostrar todos los registros
+          for(String iForEach:AlumnosForEach){
+              System.out.println(iForEach);
+          }
+          //Matrices unidimencionales
+           String [] matrizAutos= {"Toyota","BMW","Ford"};
+            
+             int [] matrizNumeros={10,11,12,13,14,15};
+             
+             //Mostrando valores de la matriz por posiciones
+             
+           System.out.println(matrizAutos[1]);
            
+           //Cambiando de valor de elemento de matriz
+           
+           matrizAutos[1]="Subaru";
+           System.out.println(matrizAutos[1]);
+               for(String iForEach:matrizAutos){
+              System.out.println(iForEach);*/
          
-         
-           }
+              //MAtrices Multidimensionales
+              int [][] matrizMultidimensional={{1,2,3,4},{5,6,7,8}};
+              
+              int misElementos=matrizMultidimensional[1][2];
+              System.out.println(misElementos);
+              
+              //Mostrando todos los datos de mis matrices Multidimensional
+             
+           for (int i2 = 0; i2 < matrizMultidimensional.length; i2++) {
+              //  System.out.println("\n");
+               for (int j2 = 0; j2 <  matrizMultidimensional.length; j2++) {
+                   System.out.println(matrizMultidimensional[i2][j2]);
+                   
+               }
+           
+        }
+    }
 }
