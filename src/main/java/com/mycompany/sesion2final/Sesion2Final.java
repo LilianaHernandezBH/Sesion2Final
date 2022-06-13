@@ -65,11 +65,101 @@ public class Sesion2Final {
          
             //1.Condicionales IF
          
-            if (10>5) {
+          /*  if (10>5) {
             System.out.println("10 es mayor a 5");
         }
+            int condicionalNum1=10;
+            int condicionalNum2=8;
+             if (condicionalNum1>condicionalNum2) {
+                 System.out.println("10 es mayor a 8");
+            
+        }
+             System.out.println("-------->u<------");
+             //Condicionales if-else
           
+           int edad=15;
+           if(edad<18){
+               System.out.println("Usted es menor de edad");
+           }
+           else{
+               System.out.println("Usted es mayor de edad");
+           }
+           
+          // System.out.println("-------->u<------");
+            
+           //Condicionales anidadas
+         int hora=11;
+         if (hora<=10) {
+             System.out.println("Es de mañana");
+            
+        }
+         else if(hora==12){
+             System.out.println("Es de mañana");
+         }
+         else{
+             System.out.println("Es de noche");
+         }
          
-      
+         
+        //Utilizando condiciones  operadores ternarios solo funciona con el if y else 
+         
+         int edad2=20;
+         String  ResultadoEdad=(edad2<18)? "Menor de Edad": "Mayor de edad";
+         System.out.println(ResultadoEdad);
+         
+         System.out.println("-------->u<------");
+         
+         //Switch case 
+         
+         int diaSemana=8;
+         
+         switch(diaSemana){
+             case 1: System.out.println("Lunes");
+                     break;
+             case 2: System.out.println("Martes");
+                     break;
+             case 3: System.out.println("Miercoles");
+                     break;
+             case 4: System.out.println("Jueves");
+                     break;
+             case 5: System.out.println("Viernes");
+                     break;
+             case 6: System.out.println("Sabado");
+                     break;
+             case 7: System.out.println("Domingo");
+                     break;
+             default: System.out.println("No hay  dia que ingreso");                          
+    }
+          
+          //Ciclos infinitos while
+          int contadorWhile=0;
+          
+          //Se ejecutara siempre y cuando la condicon sea Verdadera
+        
+          while (contadorWhile<10) {   
+              System.out.println(contadorWhile); //Muestra lo que contiene la variable
+              contadorWhile++;
+            
+        }
+          
+          //Condicion do-while
+          
+          int contadorDoWhile=0;
+          
+          do { 
+              System.out.println(contadorDoWhile);
+              contadorDoWhile++;          
+        } while (contadorDoWhile<5);*/
+          
+          
+          //Ciclos finitos for
+          int i;
+          for (i=0;i<5;i++) {
+           System.out.println(i);
+        }
+          
+           
+         
+         
            }
 }
